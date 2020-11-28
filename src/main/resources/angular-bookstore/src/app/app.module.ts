@@ -9,6 +9,7 @@ import {BookService} from "./services/book.service";
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { BookCategoryComponent } from './book-category/book-category.component';
 import { SearchComponent } from './search/search.component';
+import { BookDetailsComponent } from './book-details/book-details.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { SearchComponent } from './search/search.component';
     PageNotFoundComponent,
     BookCategoryComponent,
     SearchComponent,
+    BookDetailsComponent,
   ],
   imports: [
     BrowserModule,
