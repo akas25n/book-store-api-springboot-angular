@@ -1,8 +1,6 @@
 <div class="row">
   <div class="col-lg-3">
-    <div class="list-group">
-      <app-book-category></app-book-category>
-    </div>
+    <app-book-category></app-book-category>
   </div>
   <!-- book list -->
   <div class="col-lg-9">
@@ -22,6 +20,9 @@
           </div>
         </div>
       </div>
+    </div>
+    <div *ngIf="books?.length==0" class="col-md-12 alert alert-warning mt-3"> <!--? is safe navigation operator here-->
+      No books Found
     </div>
   </div>
 </div>

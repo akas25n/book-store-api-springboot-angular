@@ -8,6 +8,7 @@ import {HttpClientModule} from "@angular/common/http";
 import {BookService} from "./services/book.service";
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { BookCategoryComponent } from './book-category/book-category.component';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { BookCategoryComponent } from './book-category/book-category.component';
     BookListComponent,
     PageNotFoundComponent,
     BookCategoryComponent,
+    SearchComponent,
   ],
   imports: [
     BrowserModule,
